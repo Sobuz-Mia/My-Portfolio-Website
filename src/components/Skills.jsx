@@ -9,9 +9,9 @@ const Skills = () => {
         Below is a quick overview of my main technical skill sets and tools I
         use.
       </p>
-      <div className="grid md:grid-cols-3 mt-20 gap-5">
+      <div className="grid md:grid-cols-3 mt-20 md:mt-20 gap-5 ">
         <div className="card bg-[#F3F3F4] shadow-xl relative">
-          <div className=" border-[#FBA037] border-2 rounded-full absolute -top-14 right-32">
+          <div className=" border-[#FBA037] border-2 rounded-full absolute -top-14 right-36">
             <img src={fronEnd} className="rounded-full h-28 w-28" alt="" />
           </div>
           <div className="card-body items-center text-center">
@@ -29,8 +29,8 @@ const Skills = () => {
             </ul>
           </div>
         </div>
-        <div className="card bg-[#F3F3F4] shadow-xl relative">
-          <div className=" border-[#FBA037] border-2 rounded-full absolute -top-14 right-32">
+        <div className="card bg-[#F3F3F4] shadow-xl relative mt-20 md:mt-0">
+          <div className=" border-[#FBA037] border-2 rounded-full absolute -top-14 right-36">
             <img src={backEnd} className="rounded-full h-28 w-28" alt="" />
           </div>
           <div className="card-body items-center text-center">
@@ -46,8 +46,8 @@ const Skills = () => {
             </ul>
           </div>
         </div>
-        <div className="card bg-[#F3F3F4] shadow-xl relative">
-          <div className=" border-[#FBA037] border-2 rounded-full absolute -top-14 right-32">
+        <div className="card bg-[#F3F3F4] shadow-xl relative  mt-20 md:mt-0">
+          <div className=" border-[#FBA037] border-2 rounded-full absolute -top-14 right-36">
             <img src={other} className="rounded-full h-28 w-28" alt="" />
           </div>
           <div className="card-body items-center text-center">
