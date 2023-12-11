@@ -25,10 +25,9 @@ const Project_1 = () => {
         }}
        
         modules={[Autoplay, Pagination]}
-        className="mySwiper"
       >
         <SwiperSlide>
-            <img src={img_1} alt="" />
+            <img className="" src={img_1} alt="" />
         </SwiperSlide>
         <SwiperSlide>
             <img src={img_2} alt="" />

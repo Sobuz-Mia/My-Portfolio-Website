@@ -4,15 +4,15 @@ import Project_2 from "./Project_2";
 import Project_3 from "./Project_3";
 const Projects = () => {
   return (
-    <div className="my-14">
+    <div className="my-14" id="project">
       <h1 className="text-4xl italic font-bold header-font">Projects </h1>
       <p className="text-lg italic py-2">
         Below is a quick overview of my main Project there i used my Technical
         knowledge
       </p>
-      <div className="grid md:grid-cols-3 gap-5">
-        <div className="w-full bg-[#F3F3F4] shadow-xl">
-          <div className="h-fit">
+      <div className="grid md:grid-cols-3 gap-5  ">
+        <div className="md:w-full bg-[#F3F3F4] shadow-xl w-[420px]">
+          <div className="md:h-fit">
           <Project_1/>
           </div>
           <div className="card text-center">
@@ -49,7 +49,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="w-full bg-[#F3F3F4] shadow-xl">
+        <div className="md:w-full bg-[#F3F3F4] shadow-xl w-[420px]">
           <div className="h-fit">
           <Project_2/>
           </div>
@@ -85,7 +85,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="w-full bg-[#F3F3F4] shadow-xl">
+        <div className="md:w-full bg-[#F3F3F4] shadow-xl w-[420px]">
           <div className="h-fit">
           <Project_3/>
           </div>

@@ -3,7 +3,7 @@ import backEnd from "../assets/backend.jpg";
 import other from "../assets/other.jpg";
 const Skills = () => {
   return (
-    <div className="">
+    <div id="skill">
       <h1 className="text-4xl italic font-bold header-font">Skills </h1>
       <p className="text-lg italic py-2">
         Below is a quick overview of my main technical skill sets and tools I
