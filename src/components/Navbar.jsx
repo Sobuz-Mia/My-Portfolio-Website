@@ -6,20 +6,20 @@ const Navbar = () => {
       <li className="text-lg">
         <a href="">Home</a>
       </li>
-      <li  className="text-lg">
+      <li className="text-lg">
         <a href="">About</a>
       </li>
-      <li  className="text-lg">
+      <li className="text-lg">
         <a href="">Skills</a>
       </li>
-      <li  className="text-lg">
+      <li className="text-lg">
         <a href="">Contact</a>
       </li>
     </>
   );
   return (
-    <div className="navbar bg-[#F3F3F4] rounded-lg flex justify-between">
-      <div className="navbar-start">
+    <div className="navbar bg-[#F3F3F4] rounded-lg flex justify-around fixed mx-auto right-0 top-0">
+      <div className="navbar-start flex justify-between md:justify-normal ">
         <div className="dropdown flex">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
@@ -49,7 +49,7 @@ const Navbar = () => {
             <img alt="Tailwind CSS Navbar component" src={logo} />
           </div>
         </div>
-        <p className="ml-3 text-lg">MERN Stack Developer</p>
+        <p className="ml-3 text-lg hidden md:block">MERN Stack Developer</p>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>

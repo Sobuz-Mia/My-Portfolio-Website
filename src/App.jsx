@@ -5,8 +5,8 @@ import Profile from "./components/Profile";
 function App() {
   return (
     <div className="max-w-5xl mx-auto">
-      <Navbar/>
-      <Profile/>
+      <Navbar />
+      <Profile />
     </div>
   );
 }
