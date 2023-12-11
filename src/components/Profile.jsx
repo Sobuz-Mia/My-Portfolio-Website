@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 // absolute right-0 left-0
 const Profile = () => {
     return (
-        <div className="flex items-center gap-5  flex-col md:flex-row">
+        <div className="flex items-center gap-5 flex-col md:flex-row">
             <div className="">
                 <Lottie className="h-screen w-full" animationData={animation} loop={true}></Lottie>
             </div>
