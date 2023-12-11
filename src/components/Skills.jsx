@@ -9,6 +9,9 @@ const Skills = () => {
         Below is a quick overview of my main technical skill sets and tools I
         use.
       </p>
+      <h1 className="text-2xl italic font-bold header-font">Education Qualification</h1>
+      <p>Bs.c Computer Science and Engineering 2nd Year(2023)</p>
+      <p>International University Of Scholars</p>
       <div className="grid md:grid-cols-3 mt-20 md:mt-20 gap-5 ">
         <div className="card bg-[#F3F3F4] shadow-xl relative">
           <div className=" border-[#FBA037] border-2 rounded-full absolute -top-14 right-36">
