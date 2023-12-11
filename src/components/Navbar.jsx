@@ -17,8 +17,9 @@ const Navbar = () => {
       </li>
     </>
   );
+//   fixed mx-auto right-0 top-0
   return (
-    <div className="navbar bg-[#F3F3F4] rounded-lg flex justify-around fixed mx-auto right-0 top-0">
+    <div className="navbar bg-[#F3F3F4] rounded-lg flex justify-around">
       <div className="navbar-start flex justify-between md:justify-normal ">
         <div className="dropdown flex">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
