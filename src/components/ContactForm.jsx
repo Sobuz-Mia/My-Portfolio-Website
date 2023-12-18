@@ -2,6 +2,7 @@ const ContactForm = () => {
   return (
     <div id="contact">
       <h1 className="text-4xl italic font-bold header-font">Contact Form </h1>
+      {/* Contact form start here */}
       <form action="https://formspree.io/f/xvoepkgg" method="POST">
         <label className="form-control w-9/12 mx-auto">
           <div className="label">
